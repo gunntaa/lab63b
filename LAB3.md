@@ -7,6 +7,7 @@
 # อุปกรณ์ที่ใช้
 - Adapter 
 > ![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfI-ptp_QX3rVPInqYlZEeTWU9OW6lhKewcoa_D5Be1MCF4E9-wlbbv9gaasnJ-LOkgj9tJjc&usqp=CAc)
+- บอร์ด ESP-01
 - หลอด LED
 - สายUSB
 - ซีเรียลพอร์ต
