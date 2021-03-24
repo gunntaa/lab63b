@@ -35,7 +35,9 @@
 
 #### ตัวอย่าง wifi hotspot
 - หากเพื่อนของเราต้อการค้นหาข้อมูลใน Google แต่ไม่มีอินเตอร์เน็ต(mobile data) :confused: ซึ่งเราสามารถใช้โปรแกรมสร้างไวไฟแอคเซสพอยต์ โดยกำหนด **SSID**  **PASSWORD**  **IPAddress lpcal_ip**  **IPAddress gateway** และ **IPAddress subnet** เพื่อแชร์ไวไฟให้กับเพื่อนของเราได้
- > ![image](https://images.app.goo.gl/2QteRFf4TERoj7uz8)
+ > ![images](https://user-images.githubusercontent.com/80879351/112278725-b646e200-8cb5-11eb-8376-29a0bbe04b17.jpeg)
+
+
 
 
 ## คำถามหลังการทดลอง
