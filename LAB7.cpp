@@ -1,7 +1,6 @@
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 
-int cnt = 0;
 
 void setup()
 {
@@ -12,15 +11,12 @@ void setup()
 
 void loop()
 {
-	cnt++;
-	if(cnt % 2) {
-		Serial.println("========== ON ===========");
-		digitalWrite(0, HIGH);
-	} else {
-		Serial.println("========== OFF ===========");
-		digitalWrite(0, LOW);
-	}
-	delay(500);
+Serial.println("========== ON ===========");
+digitalWrite(0, HIGH);
+delay(1000*1000)   // ทำงาน 1 นาที     
+Serial.println("========== OFF ===========");
+digitalWrite(0, LOW);
+delay(7200*1000) // หยุดทำงาน 120 นาที
 }
 
 
