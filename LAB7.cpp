@@ -6,20 +6,21 @@ int cnt = 0;
 void setup()
 {
 	Serial.begin(115200);
-	pinMode(0, INPUT);
-	pinMode(2, OUTPUT);
+	pinMode(0, OUTPUT);
 	Serial.println("\n\n\n");
 }
 
 void loop()
 {
-	int val = digitalRead(0);
-	Serial.printf("======= read %d\n", val);
-	if(val==1) {
-		digitalWrite(2, LOW);
+	cnt++;
+	if(cnt % 2) {
+		Serial.println("========== ON ===========");
+		digitalWrite(0, HIGH);
 	} else {
-		digitalWrite(2, HIGH);
+		Serial.println("========== OFF ===========");
+		digitalWrite(0, LOW);
 	}
-	delay(100);
+	delay(500);
 }
+
 
